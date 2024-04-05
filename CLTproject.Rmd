@@ -87,7 +87,6 @@ print(paste('mean = ', mean(my1000$k4),' sd = ',sd(my1000$k4)))
 ### In this case the stdev was cut in half because the sample size was four. This is what the central limit theorem says. There are also 5 peaks. They go from FFFF,to FFFM, to FFMM to FMMM and finally MMMM.
 
 
-
 ```{r}
 numb=9
 Hdata = Homers_data[sample(1:1000, size=numb*1000, replace=T),"kkardashtemp"]
@@ -108,4 +107,4 @@ print(paste('mean = ', mean(my1000$k9),' sd = ',sd(my1000$k9)))
 
 ```
 
-
+The previous graph show that the mean is getting closer and closer to 50 and standard deviation is decreasing which is in according with CLT theory. The standard deviation was as expected, because the sample standard deviation was 41.38 and when divided by square root 9 (the sample size) it equal approximately 13.93, which is close to the results which is approximately 14. overall, the graph is getting more symmetrical.
